@@ -1,0 +1,24 @@
+{
+  "name": "Bluestock Fintech",
+  "dataColors": [
+    "#1A3C5E",
+    "#2E86AB",
+    "#F4A261",
+    "#2EC4B6",
+    "#E76F51",
+    "#264653",
+    "#A8DADC",
+    "#457B9D"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#1A3C5E",
+  "tableAccent": "#2E86AB",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }]
+      }
+    }
+  }
+}

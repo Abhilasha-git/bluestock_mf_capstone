@@ -390,3 +390,31 @@ print("\n========================================")
 print(" All 10 datasets cleaned successfully!")
 print(" Clean files saved in: data/processed")
 print("========================================")
+
+#------------------------------------------------------------------
+
+import pandas as pd
+
+fund = pd.read_csv("data/processed/01_fund_master_clean.csv")
+performance = pd.read_csv("data/processed/07_scheme_performance_clean.csv")
+
+print("Fund Master")
+print("Rows:", len(fund))
+print("Unique AMFI Codes:", fund["amfi_code"].nunique())
+
+print("\nScheme Performance")
+print("Rows:", len(performance))
+print("Unique AMFI Codes:", performance["amfi_code"].nunique())
+
+#--------------------------------------------------------------
+
+import pandas as pd
+
+aum = pd.read_csv("data/processed/03_aum_by_fund_house_clean.csv")
+
+print(aum.head())
+print(aum.groupby("date")["aum_lakh_crore"].sum().tail())
+
+print("-------------------------------------------------")
+
+
