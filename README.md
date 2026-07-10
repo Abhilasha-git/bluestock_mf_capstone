@@ -171,7 +171,7 @@ The project includes an interactive Power BI dashboard developed to visualize mu
 
 ### 2. Fund Performance Analysis
 
-![Fund Performance](dashboard/screenshots/fund_performance.png)
+![Fund Performance](dashboard/screenshots/fund_performance_analysis.png)
 
 ---
 
@@ -189,7 +189,7 @@ The project includes an interactive Power BI dashboard developed to visualize mu
 
 ### 5. Fund NAV Drill-through
 
-![NAV Detail](dashboard/screenshots/nav_drillthrough.png)
+![NAV Detail](dashboard/screenshots/nav_detail.png)
 ---
 
 # Data Sources
