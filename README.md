@@ -287,7 +287,7 @@ git clone https://github.com/Abhilasha-git/bluestock_mf_capstone
 Navigate to the project folder:
 
 ```bash
-cd mutual-fund-analysis
+cd bluestock_mf_capstone
 ```
 
 Install dependencies:
