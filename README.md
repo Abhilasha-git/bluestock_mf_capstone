@@ -1,8 +1,8 @@
-# 📊 Bluestock Mutual Fund Analytics & Performance Evaluation
+# 📊 bluestock_mf_capstone
 
-## Overview
+## 📖 Overview
 
-The **Bluestock Mutual Fund Analytics & Performance Evaluation** project is an end-to-end data analytics solution developed during my internship at **Bluestock Fintech**. The project focuses on transforming raw mutual fund datasets into meaningful business insights through data engineering, financial analytics, advanced risk analysis, and interactive business intelligence dashboards.
+The **bluestock_mf_capstone** project is an end-to-end data analytics solution developed during my internship at **Bluestock Fintech**. The project focuses on transforming raw mutual fund datasets into meaningful business insights through data engineering, financial analytics, advanced risk analysis, and interactive business intelligence dashboards.
 
 The solution automates the complete analytics pipeline—from data ingestion and cleaning to performance evaluation and dashboard visualization—enabling data-driven investment decision-making.
 
@@ -21,7 +21,60 @@ The solution automates the complete analytics pipeline—from data ingestion and
 
 ---
 
-# Project Architecture
+## 🚀 Project Highlights
+
+- ✅ Automated ETL pipeline using Python
+- ✅ Cleaned and validated 10+ mutual fund datasets
+- ✅ Designed and implemented a SQLite relational database
+- ✅ Performed comprehensive Exploratory Data Analysis (EDA)
+- ✅ Calculated key financial performance metrics:
+  - CAGR
+  - Sharpe Ratio
+  - Sortino Ratio
+  - Alpha & Beta
+  - Maximum Drawdown
+  - Tracking Error
+- ✅ Conducted advanced financial analytics:
+  - Historical VaR & CVaR
+  - Rolling 90-Day Sharpe Ratio
+  - Investor Cohort Analysis
+  - SIP Continuity Analysis
+  - Sector HHI Concentration Analysis
+- ✅ Developed an interactive Power BI Dashboard
+- ✅ Built a Mutual Fund Recommendation System based on investor risk appetite
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Database | SQLite |
+| Query Language | SQL |
+| Dashboard | Microsoft Power BI |
+| IDE | VS Code, Jupyter Notebook |
+| Version Control | Git & GitHub |
+
+---
+
+# 💡 Skills Demonstrated
+
+- Python
+- SQL
+- SQLite
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Power BI
+- Git & GitHub
+- Financial Analytics
+- Data Engineering
+
+# 🏗 Project Architecture
 
 ```
 Raw CSV Files
@@ -53,40 +106,30 @@ Raw CSV Files
 
 ---
 
-# Technology Stack
-
-| Category | Tools |
-|----------|------|
-| Programming | Python |
-| Libraries | Pandas, NumPy, Matplotlib, Seaborn |
-| Database | SQLite |
-| Query Language | SQL |
-| Dashboard | Microsoft Power BI |
-| Development Environment | Jupyter Notebook, VS Code |
-| Version Control | Git & GitHub |
-
----
-
-# Project Structure
+# 📂 Project Structure
 
 ```
-mutual-fund-analysis/
+bluestock_mf_capstone/
 
 ├── dashboard/
-│   └── Power BI dashboard files
-│
+│   ├── bluestock_mf_dashboard.pbix
+│   └── bluestock_theme.json
+|   └── screenshots/
+|            ├── industry_overview.png
+|            ├── fund_performance.png
+|            ├── investor_analytics.png
+|            └── sip_market_trends.png
+|            └── nav_detail.png
 ├── data/
 │   ├── raw/
 │   ├── processed/
 │   └── db/
-│
-├── docs/
+│       └── bluestock_mf.db
 │
 ├── notebooks/
-│   ├── Data Engineering
-│   ├── EDA
-│   ├── Performance Analytics
-│   └── Advanced Analytics
+│   ├── EDA_Analysis.ipynb
+│   ├── Performance_Analytics.ipynb
+│   └── Advanced_Analytics.ipynb
 │
 ├── reports/
 │   ├── EDA/
@@ -105,12 +148,48 @@ mutual-fund-analysis/
 │   ├── schema.sql
 │   └── queries.sql
 │
-├── Project_Report.pdf
-├── Presentation.pptx
+├── docs/
+│   └── data_dictionary.md
+│
+├── README.md
 ├── requirements.txt
-└── README.md
+├── PPT
+├── Project_Report
+└── .gitignore
 ```
+# 📊 Power BI Dashboard
 
+The project includes an interactive Power BI dashboard developed to visualize mutual fund performance, investor behaviour, SIP trends, and advanced financial analytics.
+
+## Dashboard Preview
+
+### 1. Industry Overview
+
+![Industry Overview](dashboard/screenshots/industry_overview.png)
+
+---
+
+### 2. Fund Performance Analysis
+
+![Fund Performance](dashboard/screenshots/fund_performance.png)
+
+---
+
+### 3. Investor Analytics
+
+![Investor Analytics](dashboard/screenshots/investor_analytics.png)
+
+---
+
+### 4. SIP & Market Trends
+
+![SIP Trends](dashboard/screenshots/sip_market_trends.png)
+
+---
+
+### 5. Fund NAV Drill-through
+
+![NAV Detail](dashboard/screenshots/nav_drillthrough.png)
 ---
 
 # Data Sources
@@ -130,9 +209,9 @@ The project utilizes:
 
 ---
 
-# Features
+# 📈 Key Features
 
-## Data Engineering
+## 🔹 Data Engineering
 
 - Automated ETL pipeline
 - Data cleaning
@@ -142,7 +221,7 @@ The project utilizes:
 
 ---
 
-## Exploratory Data Analysis
+## 🔹 Exploratory Data Analysis
 
 - Investor Demographics
 - SIP Trend Analysis
@@ -152,7 +231,7 @@ The project utilizes:
 
 ---
 
-## Performance Analytics
+## 🔹 Performance Analytics
 
 - CAGR
 - Sharpe Ratio
@@ -163,7 +242,7 @@ The project utilizes:
 
 ---
 
-## Advanced Analytics
+## 🔹 Advanced Analytics
 
 - Historical VaR & CVaR
 - Rolling 90-Day Sharpe Ratio
@@ -174,7 +253,7 @@ The project utilizes:
 
 ---
 
-## Interactive Dashboard
+## 🔹 Interactive Dashboard
 
 The Power BI dashboard provides:
 
@@ -186,7 +265,7 @@ The Power BI dashboard provides:
 
 ---
 
-# Key Business Insights
+# 💡 Key Business Insights
 
 - Equity-oriented mutual funds attracted the highest investor participation.
 - SIP investments demonstrated consistent long-term growth.
@@ -197,12 +276,12 @@ The Power BI dashboard provides:
 
 ---
 
-# Installation
+# ⚙ Installation
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Abhilasha-git/mutual-fund-analysis>
 ```
 
 Navigate to the project folder:
@@ -219,9 +298,23 @@ pip install -r requirements.txt
 
 ---
 
-# Running the Project
+# ▶ Running the Project
 
-Run the ETL pipeline:
+Run the ETL Pipeline:
+
+```bash
+python scripts/etl_pipeline.py
+```
+
+Open Jupyter notebooks from the `notebooks` folder for analytics.
+
+Launch the Power BI dashboard:
+
+```
+dashboard/bluestock_mf_dashboard.pbix
+```
+
+---
 
 ```bash
 python scripts/etl_pipeline.py
@@ -251,24 +344,22 @@ dashboard/Mutual_Fund_Analytics.pbix
 
 ---
 
-# Future Enhancements
+# 🔮 Future Scope
 
-- Live data integration through APIs
-- Scheduled ETL automation
-- Streamlit web application
-- Portfolio optimization using Modern Portfolio Theory
-- Machine Learning-based fund recommendation
-- Automated reporting
+- Live Mutual Fund API Integration
+- Automated ETL Scheduling
+- Streamlit Web Application
+- Portfolio Optimization Models
+- Machine Learning-Based Recommendation Engine
+- Automated Weekly Performance Reports
 
 ---
 
 # Author
 
-**Abhilasha Kumari**
+**Abhilasha Aavya**
 
-Internship Project
-
-Bluestock Fintech
+Bluestock Fintech Internship Project
 
 ---
 
