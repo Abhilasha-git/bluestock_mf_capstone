@@ -281,7 +281,7 @@ The Power BI dashboard provides:
 Clone the repository:
 
 ```bash
-git clone <https://github.com/Abhilasha-git/mutual-fund-analysis>
+git clone https://github.com/Abhilasha-git/bluestock_mf_capstone
 ```
 
 Navigate to the project folder:
